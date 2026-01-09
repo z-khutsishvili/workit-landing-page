@@ -1,0 +1,55 @@
+@use '../abstracts' as *;
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: rem(64px) $mobile;
+
+    &__socials {
+        margin-top: rem(56px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: rem(28px);
+
+        a {
+            display: flex;
+            align-items: center;
+        }
+
+        a svg path {
+            fill: $purplish-grey;
+            transition: fill .18s ease-in-out;
+        }
+
+        a:hover svg path {
+            fill: $dark-purple;
+        }
+    }
+}
+
+@include breakpoint(tablet) {
+    .footer {
+        padding: rem(70px) $tablet rem(121px);
+
+        &__socials {
+            margin-top: rem(57px);
+        }
+    }
+}
+
+@include breakpoint(desktop) {
+    .footer {
+        padding: rem(111px) $desktop rem(110px);
+
+        &__socials {
+            margin-top: rem(57px);
+        }
+
+        &__twitter {
+            margin-top: rem(1px);
+        }
+    }
+}
