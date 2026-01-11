@@ -4,7 +4,7 @@ This is a solution to the [Workit landing page challenge on Frontend Mentor](htt
 
 ## Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/workit-landing-page-R59WyDbpdz](https://www.frontendmentor.io/solutions/workit-landing-page-R59WyDbpdz)
+- Solution URL: [https://www.frontendmentor.io/solutions/workit-landing-page-wlpzm-80VO](https://www.frontendmentor.io/solutions/workit-landing-page-wlpzm-80VO)
 - Live Site URL: [https://z-khutsishvili.github.io/workit-landing-page/](https://z-khutsishvili.github.io/workit-landing-page/)
 
 ## Built with
